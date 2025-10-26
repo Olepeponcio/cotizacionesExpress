@@ -2,7 +2,7 @@ function cargarContenido() {
   //cargar Elementos
   cargarHero();
   let gif = document.getElementById('espera');
-  gif.src = '/Dia-13_proyecto/loading.gif';
+  gif.src = 'loading.gif';
   gif.style.visibility = 'visible';
   //cargar Cotizaciones
   cargarCotizaciones(mostrarCotizacion);
@@ -16,9 +16,9 @@ function cargarHero() {
 
 
   title.innerText = "COTIZACIONES EXPRESS";
-  logo1.src = '/Dia-13_proyecto/logo1.png';
-  logo2.src = '/Dia-13_proyecto/logo2.png';
-  logo3.src = '/Dia-13_proyecto/logo3.png';
+  logo1.src = 'logo1.png';
+  logo2.src = 'logo2.png';
+  logo3.src = 'logo3.png';
 
 }
 
